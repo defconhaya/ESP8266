@@ -1,19 +1,3 @@
-/*
- Adapted from the Adafruit and Xark's PDQ graphicstest sketch.
-
- This sketch uses the GLCD font only.
-
- Make sure all the display driver and pin comnenctions are correct by
- editting the User_Setup.h file in the TFT_eSPI library folder.
-
- Note that yield() or delay(0) must be called in long duration for/while
- loops to stop the ESP8266 watchdog triggering.
-
- #########################################################################
- ###### DON'T FORGET TO UPDATE THE User_Setup.h FILE IN THE LIBRARY ######
- #########################################################################
- */
-
 
 #include <TFT_eSPI.h> // Hardware-specific library
 #include <SPI.h>
